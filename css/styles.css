@@ -510,13 +510,14 @@ color: rgba(255, 255, 255, 0.6);
 align-items: center;
  justify-content: center;
  fill: var(--background-nice-color);
- background-color:#757575 ;
+ background-color: rgba(255, 255, 255, 0.1);;
 
 
 }
 .footer-list-cos{
   display: flex;
   justify-content: center;
+  
  
 }
 
@@ -543,7 +544,8 @@ margin-bottom: 20px;
 }
     .footer-container{
       display: flex;
-      align-items: flex-start;
+      align-items: baseline;
+
     }
     
     .container-address{
@@ -553,12 +555,13 @@ margin-bottom: 20px;
    .container-cos{
     width: 206px;
     margin-left:  70px;
+  
    }
 
  
   
     .footer-link-cos{
-      fill:var(--contact-soc);
+      fill:var(--background-nice-color)
     }
     .footer-link-cos:hover{
      background-color:var(--hover-kolor);
