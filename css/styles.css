@@ -269,39 +269,6 @@ color:var(--predominant-text-color);
   margin-right: 0;
     }
 
-
-
-
-    /*.strategy-item::before{
-      display: block;
-      content: "";
-    height: 120px;
-
-    background-color: var(--background-color);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 30px;
-  
-
-  }
-
-  .strategy-item:nth-child(1):before{
-  background-image: url("../images/antenna\ 1.svg")
-
-}
-.strategy-item:nth-child(2):before{
-  background-image: url("../images/clock.svg")
-}
-.strategy-item:nth-child(3):before{
-  background-image: url("../images/diagram.svg")}
-
-  .strategy-item:nth-child(4):before{
-    background-image: url("../images/astronaut.svg")}
-    .before{
-      width: 70px;
-      height: 70px; 
-    }*/
     .icon-strategy{
       width: 270px;
       height: 120px;
