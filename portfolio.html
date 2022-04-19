@@ -28,10 +28,18 @@
         </ul>
     </nav>
         <ul class="header-list list">
-            <li><a class="header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-               <li><a class="header-contact" href="tel:+380961111111">+38 096 111 11 11</a></li> 
-            
-        </ul>
+            <li class="header-contact-item"><a class="header-contact " href="mailto:info@devstudio.com">
+            <svg class="header--item-mailito" height="12px" width="16px">
+          
+                <use href="./images/symbol-defs.svg#icon-envelope-hover"></use>
+            </svg>info@devstudio.com</a></li>
+               
+                <li class="header-contact-item"><a class="header-contact " href="tel:+380961111111">
+                <svg class="header--item-mailito" height="16px" width="10px">
+          
+                    <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                </svg>+38 096 111 11 11</a></li> 
+                    </ul>
     </div>
     </header>  
     <main class="main">
@@ -66,7 +74,6 @@
                 <li class="main-item">
                     <a class="main-link" href="">
                     <img src="images/website.jpg" alt="Веб-сайт">
-                   
                     <div class="container-title">
                     <h2 class="main-title">Технокряк</h2>
                     <p class="main-text">Веб-сайт</p>
@@ -98,7 +105,6 @@
                  <li class="main-item">
                     <a class="main-link"  href="">
                      <img src="images/prime.jpg" alt="Маркетинг">
-                   
                      <div class="container-title">
                      <h2 class="main-title">Проект Prime</h2>
                      <p class="main-text">Маркетинг</p>
@@ -166,8 +172,9 @@
                 </div>
         </section>
     </main>  
-          <footer class="footer">
-        <div class="container">
+    <footer class="footer">
+        <div class="footer-container container">
+        <div class=" container-address">
         <a class="footer-logo" href="/index.html"> Web<span class="footer-span">Studio</span>
         </a>
         <address class="footer-address">
@@ -184,10 +191,47 @@
             <li class="footer-item">
                 <a class="footer-contact" href="tel+380991111111">+38 099 111 11 11</a>
             </li>
+
         </ul>
         </address>
     </div>
-    </footer> 
+    <div class=" container-cos">
+        <h2 class="footer-addition-title">присоединяйтесь</h2>
+        <ul class="footer-list-cos list">
+            <li class="footer-addition-item"><a class="footer-link-cos"  href="">
+                <svg class="team-cos-icon" weight="20" height="20">
+                   <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
+           </svg>
+
+            </a>
+            </li>
+            <li class="footer-addition-item"><a class="footer-link-cos"  href="">
+                <svg class="team-cos-icon" weight="20" height="20">
+                   <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
+           </svg>
+
+            </a>
+            </li>
+
+            <li class="footer-addition-item"><a class="footer-link-cos"  href="">
+                <svg class="team-cos-icon" weight="20" height="20">
+                   <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
+           </svg>
+
+            </a>
+            </li>
+
+            <li class="footer-addition-item"><a class="footer-link-cos"  href="">
+                <svg class="team-cos-icon" weight="20" height="20">
+                   <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>
+           </svg>
+
+            </a>
+            </li>
+        </ul>
+    </div>
+</div>
+    </footer>
 
 </body>
 </html>
